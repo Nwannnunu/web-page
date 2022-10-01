@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  /* background-image: url("img/justice.jfif"); */
+  background-color: rgba(199, 201, 203, 0.639);
+  position: relative;
+}
+
+.company {
+  font-family: sans-serif;
+  font-size: 22px;
+  display: inline-block;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+
+nav {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 10px;
+  display: inline-block;
+  top: 10px;
+  right: 5px;
+  position: absolute;
+}
+a {
+  color: rgb(32, 146, 227);
+  padding: 5px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: rgb(124, 56, 56);
+}
+
+/* a:visited {
+  color: rgb(243, 6, 6);
+} */
+
+.btn {
+  border: 0;
+  background-color: rgb(32, 146, 227);
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 40px;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(36, 68, 78);
+}
+
+.first-div {
+  color: rgb(41, 53, 63);
+}
+
+.first-div p {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin: 0;
+  padding-left: 30px;
+}
+
+.first-div p:last-child {
+  padding-bottom: 30px;
+}
+
+.btn1 {
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(32, 146, 227);
+  border: 0;
+  border-radius: 40px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.btn1:hover {
+  background-color: rgb(36, 68, 78);
+}
+
+.btn1:active {
+  border: none;
+}
+
+h1 {
+  color: rgb(36, 68, 78);
+}
+
+.flex-container {
+  background-color: rgb(199, 201, 203, 0.639);
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: dodgerblue;
+  margin: 10px;
+  padding: 30px;
+  color: #fff;
+  width: 200px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
